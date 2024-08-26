@@ -144,8 +144,8 @@ h2 {
 
 @media (max-width: 768px) {
     #board {
-        max-width: 350px;
-        max-height: 350px;
+        max-width: 420px;
+        max-height: 400px;
     }
 
     .tiles {
