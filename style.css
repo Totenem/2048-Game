@@ -24,16 +24,14 @@ h2 {
 }
 
 .tiles {
-  width: calc(100% / 4 - 6px);
-  height: calc(100% / 4 - 6px);
+  width: calc(100% / 4 - 16px);
+  height: calc(100% / 4 - 16px);
   border: 5px solid #bbada0;
   font-size: 25px;
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box; /* added */
-  flex-basis: calc(100% / 4 - 8px); /* added */
 }
 
 /* tile number */
@@ -136,9 +134,9 @@ h2 {
   }
 
   .tiles {
-    width: calc(100% / 4 - 6px);
-    height: calc(100% / 4 - 6px);
-  }}
+    width: calc(100% / 4 - 16px);
+    height: calc(100% / 4 - 16px);
+  }
 
     h1 {
         font-size: 40px;
