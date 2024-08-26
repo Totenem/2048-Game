@@ -14,7 +14,7 @@ h2 {
 }
 
 #board {
-    width: 420px;
+    width: 350px;
     height: 400px;
     background-color: #cdc1b5;
     border: 6px solid #bbada0;
@@ -24,8 +24,8 @@ h2 {
 }
 
 .tiles {
-    width: calc(100% / 4 - 12px);
-    height: calc(100% / 4 - 12px);
+    width: calc(100% / 4 - 10px);
+    height: calc(100% / 4 - 10px);
     border: 5px solid #bbada0;
     font-size: 25px;
     font-weight: bold;
@@ -144,13 +144,13 @@ h2 {
 
 @media (max-width: 768px) {
     #board {
-        max-width: 420px;
+        max-width: 350px;
         max-height: 400px;
     }
 
     .tiles {
-        width: calc(100% / 4 - 12px);
-        height: calc(100% / 4 - 12px);
+        width: calc(100% / 4 - 10px);
+        height: calc(100% / 4 - 10px);
     }
 
     h1 {
